@@ -9,7 +9,10 @@ import 'helpers/use_cases.dart';
 
 void main() {
   group('Use case', () {
-    late UseCase<int, String> useCase, errorUseCase, slowUseCase, inverseSlowUseCase;
+    late UseCase<int, String> useCase,
+        errorUseCase,
+        slowUseCase,
+        inverseSlowUseCase;
 
     setUp(() {
       useCase = IntToStringUseCase();
